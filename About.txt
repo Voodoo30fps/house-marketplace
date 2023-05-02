@@ -6,3 +6,10 @@ About:
 -React toastify
 -Custom hooks
 -Google OAuth login
+-Google Geolocation
+
+
+
+!!! GOOGLE GEOLOCATION !!!
+Google Geolocation required a credit card and so I decided not to use it. The app works with/without it. I disabled geolocation but it can be used anytime (toggle the geolocation state and add the credentials)
+!!!
