@@ -8,6 +8,7 @@ import PrivateRoute from './components/PrivateRoute';
 
 import Explore from './pages/Explore';
 import Offers from './pages/Offers';
+import Category from './pages/Category';
 import Profile from './pages/Profile';
 
 import SignIn from './pages/SignIn';
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Explore />}></Route>
           <Route path='/offers' element={<Offers />}></Route>
+          <Route path='/category/:categoryName' element={<Category />}></Route>
           <Route path='/profile' element={<PrivateRoute />}>
             <Route path='/profile' element={<Profile />} />
           </Route>
