@@ -8,6 +8,7 @@ About:
 -Google OAuth login
 -Google Geolocation
 -UUID
+-Leaflet + React Leaflet
 
 
 
