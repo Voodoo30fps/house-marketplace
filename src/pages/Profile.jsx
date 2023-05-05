@@ -81,7 +81,6 @@ function Profile() {
         await updateDoc(userRef, { name });
       }
     } catch (error) {
-      console.log(error);
       toast.error('Could not update profile details');
     }
   };
