@@ -18,7 +18,7 @@ What was used for this project:
 - Unsplash (free images)
 - Firebase
 - Firestore Database
-- Non-Relational Database (Mongo DB)
+- Non-Relational Database
 - React toastify
 - Custom hooks
 - Google OAuth login
